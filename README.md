@@ -1,16 +1,32 @@
-# flutter_task_app
+# Flutter To-Do App
 
-A new Flutter project.
+A simple Flutter application to manage your daily tasks. Users can add, edit, delete, and mark tasks as completed. The app supports local storage, light/dark mode, and task filtering.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, delete tasks
+- Mark tasks as completed
+- Filter tasks: All / Pending / Completed
+- Light and Dark theme support
+- Persistent storage using `shared_preferences`
+- Clean, modern UI using `ListView` and `CheckboxListTile`
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Add your screenshots here if needed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- Flutter
+- Dart
+- `shared_preferences` for local storage
+
+## Dependencies
+
+Add the following to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
